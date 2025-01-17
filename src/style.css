@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'poppins-regular';
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('/assets/fonts/Poppins/Poppins-Black.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-BlackItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-BoldItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('/assets/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('/assets/fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-ExtraLightItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Italic';
+    src: url('/assets/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url('/assets/fonts/Poppins/Poppins-Light.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-LightItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Medium';
+    src: url('/assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-MediumItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Regular';
+    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('/assets/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Thin';
+    src: url('/assets/fonts/Poppins/Poppins-Thin.ttf') format('truetype'),
+         url('/assets/fonts/Poppins/Poppins-ThinItalic.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  :root {
+    --black: black;
+    --white: white;
+    --black-one: #11151A;
+    --gray-one: #384155;
+    --gray-two: #727C80;
+    --blue: #3382D1;
+    --blue-two: #111E31;
+    --blue-three: #0050ad;
+    --skyblue: #66BAF1;
+    --html: #E34F26;
+    --css: #264DE4;
+    --react: #61DAFB;
+    --tailwind: #1DA9BB;
+    --mysql: #4479A1;
+    --git: #F05032;
+    --typescript: #3178C6;
+    --bootstrap: #7952B3;
+    --angular: #E40035;
+    --javascript: #F7DF1E;
+    --wordpress: #21759B;
+  }
+  .ctn-body{
+    position: relative;
+  }
+  .subtitle{
+    color: var(--blue);
+    font-family: "Poppins-bold";
+    font-size: 26px;
+  }
+  .subtitle-bb{
+    color: var(--white);
+    font-family: "Poppins-bold";
+    font-size: 30px;
+    text-align: center;
+  }
+  .subsubtitle{
+    font-family: "poppins-bold";
+    font-size: 22px;
+    color: var(--black);
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0; 
+      scale: 10%;
+    }
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
+
+  .effect-scroll{
+    view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 25% cover 50%;
+  }
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+.subContenedor{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.bg-blue{
+  background-color: var(--black-one);
+}
+html {
+  scroll-behavior: smooth; /* Activa el scroll suave */
+}

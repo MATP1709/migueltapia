@@ -1,0 +1,63 @@
+.subContenedor .item-exp{
+    display: flex;
+    max-width: 1000px;
+    height: 400px;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.subContenedor .item-exp .item{
+    display: flex;
+}
+.item-exp .ctn-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.item-exp .ctn-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-exp .ctn-txt{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.item-exp .ctn-txt .empresa{
+    font-family: 'poppins-bold';
+    font-size: 22px;
+}
+.item-exp .ctn-txt .cargo{
+    font-family: 'poppins-medium';
+    font-size: 16px;
+}
+.item-exp .ctn-txt .datos{
+    display: flex;
+    gap: 20px;
+}
+.item-exp .ctn-txt .datos p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'poppins-medium';
+    font-size: 14px;
+}
+.ctn-txt .funciones-title{
+    font-size: 16px;
+    font-family: "poppins-bold";
+}
+.ctn-txt .funciones{
+    margin-left: 20px;
+}
+.ctn-txt .funciones li{
+    font-size: 14px;
+    font-family: "poppins-regular";
+}

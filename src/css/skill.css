@@ -1,0 +1,73 @@
+.ctn-item-skill{
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    width: 100%;
+    gap: 50px 0;
+    color: white;
+}
+.item-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d; /* Mantener la percepción 3D */
+    transition: transform 0.3s ease; /* Animación suave */
+}
+.item-skill:hover{
+    transform: rotateY(40deg);
+}
+.item-skill .item-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-skill .item-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins-bold";
+}
+
+.css3 .item-text{
+    color: var(--css);
+}
+.html5 .item-text{
+    color: var(--html);
+}
+.react .item-text{
+    color: #61DAFB;
+    color: var(--react);
+}
+.tailwind .item-text{
+    color: var(--tailwind);
+}
+.mysql .item-text{
+    color: var(--mysql);
+}
+.git .item-text{
+    color: var(--git);
+}
+.typescript .item-text{
+    color: var(--typescript);
+}
+.bootstrap .item-text{
+    color: var(--bootstrap);
+}
+.angular .item-text{
+    color: var(--angular);
+}
+.javascript .item-text{
+    color: var(--javascript);
+}
+.wordpress .item-text{
+    color: var(--wordpress);
+}
+.figma .item-text{
+    width: fit-content;
+    background: linear-gradient(90deg, #F24E1E, #FF7262, #A259FF, #1ABCFE, #0ACF83);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
