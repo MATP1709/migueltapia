@@ -1,9 +1,21 @@
-.item-card-e{
+.ctnPortafolio{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ctnPortafolio .item-card-e{
     position: relative;
     overflow: hidden;
+    height: 360px;
   }
+
+  .ctnPortafolio .ctn-item-txt{
+    height: 170px;
+  } 
   .ctnPortafolio .ctn-item-txt .item-txt{
     gap: 10px;
+    width: 100%;
   } 
 
 .ctnPortafolio .item-card-e{
@@ -21,6 +33,29 @@
     object-fit: cover;
 }
 
+.ctnBtn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.ctnBtn a{
+  color: white;
+}
+.ctnBtn .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-two);
+  width: 65px;
+  height: 28px;
+  border-radius: 8px;
+  font: 14px "poppins-medium";
+  box-shadow: 0 0 6px var(--black);
+}
+.ctnBtn .btn:hover{
+  background: var(--blue);
+}
 .wave {
     z-index: -1;
     position: absolute;
@@ -79,40 +114,12 @@
   flex-wrap: wrap;
   gap: 5px;
 }
+.ctnLabel a{
+  height: 30px;
+}
 .etiquetas{
-  padding: 3px 8px;
-  border-radius: 8px;
-  font-family: poppins-medium;
-  box-shadow: 0 0 4px var(--gray-one);
+  width: 30px;
+  height: 30px;
 }
-  .etiquetas.ctn-figma{
-    z-index: 2;
-    background-color: #26262E;
-    padding: 3px 8px;
-    border-radius: 8px;
-  }
-  .etiquetas .figma {
-    font-family: "poppins-bold";
-    width: fit-content;
-    background: linear-gradient(90deg, #F24E1E, #FF7262, #A259FF, #1ABCFE, #0ACF83);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-}
-
   /* FIN DE ETIQUETA FIGMA */
-  .etiquetas.html5{
-    background-color: var(--html);
-  }
-  .etiquetas.css{
-    background-color: var(--css);
-  }
-  .etiquetas.js{
-    background-color: var(--javascript);
-    text-shadow: 0 0 2px black;
-  }
-  .etiquetas.jquery{
-    background-color: var(--jquery);
-    text-shadow: 0 0 2px black;
-  }
+

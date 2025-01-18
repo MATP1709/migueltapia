@@ -28,7 +28,7 @@ export const Header = ()=>{
     }, [charIndex, isDeleting, textIndex]);
     return(
 <>
-            <div className='ctn-header-banner'>
+            <div className='ctn-header-banner' id='inicio'>
                 <header>
                     <div className="ctn-header">
                         <a data-aos="fade-down" href="#sobreMi">Sobre Mi</a>

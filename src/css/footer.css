@@ -1,0 +1,94 @@
+.footer{
+    display: flex;
+    align-items: start !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.footer .columna{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 150px;
+}
+.footer .columna .col-sub{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .columna .title{
+    font: 20px "poppins-bold";
+}
+
+.footer .columna a{
+    color: var(--white);
+}
+.footer .columna a:hover{
+    color: var(--blue);
+}
+
+
+.footer .columna .contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.footer .columna .contacto img{
+    width: 20px;
+    height: 20px;
+}
+.footer .columna .contacto .subContacto{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ctnSubItem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .columna .redes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer .columna .redes a:hover svg{
+    fill: var(--blue);
+}
+.imgFooter{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+    border-radius:10% 10% 50% 50% / 10% 10% 25% 25%  ;
+    overflow: hidden;
+}
+.imgFooter .bg{
+    width: 250px;
+    height: 68%;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(to top, var(--white),var(--blue));
+}
+.imgFooter img{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.imgFooter .wave{
+    z-index: 1;
+}
+.derechos{
+    background-color: var(--black);
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font: 12px "poppins-bold";
+
+}
