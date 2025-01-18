@@ -11,7 +11,6 @@ export const Portafolio =()=>{
             <div className="contenedor" id="portafolio">
                 <div className="subContenedor">
                     <p className="subtitle">Portafolio</p>
-                    <p>Click en las Card, para dirigirte a la web. Click en icono de figma para dirigirte al diseño en figma.</p>
                     <div className="ctnPortafolio">
 
                         <div className="item-card-e" data-aos="flip-up">
