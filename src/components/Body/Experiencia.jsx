@@ -5,8 +5,8 @@ export const Experiencia =()=>{
         <div className="contenedor bg-blue" id='experiencia'>
 
             <p className="subtitle-bb">Experiencia Profesional</p>
-            <div className="subContenedor">
-                <div className="item-exp "  data-aos="fade-down-left">
+            <div className="subContenedor experiencia">
+                <div className="item-exp" data-aos="fade-down-left">
                     <div className='item'>
                         <div className='ctn-img'>
                             <img src="./assets/img/trabajos/bn.png" alt="Banco de la Nación" />
@@ -40,7 +40,7 @@ export const Experiencia =()=>{
                     </div>
                 </div>
 
-                <div className="item-exp "  data-aos="fade-down-right">
+                <div className="item-exp" data-aos="fade-down-right">
                     <div className='item'>
                         <div className='ctn-img'>
                             <img width={'100%'} height={'auto'} src="./assets/img/trabajos/grupourano.png" alt="Banco de la Nación" />

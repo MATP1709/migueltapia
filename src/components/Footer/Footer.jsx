@@ -59,7 +59,7 @@ export const Footer =()=>{
                         <div className='imgFooter' data-aos="fade-left">
                             <img src="./assets/img/footer.png" alt="ubicación" />
                             <span className='bg'></span>
-                            <div class="wave"></div>
+                            <div className="wave"></div>
                         </div>
                     </div>
                 </div>

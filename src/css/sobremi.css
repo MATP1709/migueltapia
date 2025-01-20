@@ -1,17 +1,18 @@
 .sobreMi{
+    width: 100%;    
     display: flex;
+    justify-content: space-between;
 }
 .ctn-izquierda{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    max-width: 450px;
 }
 .ctn-derecha{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
 }
 
 .sobreMi .ctn-img img{

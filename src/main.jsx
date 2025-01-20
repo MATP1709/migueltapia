@@ -6,6 +6,7 @@ import { Footer } from './components/Footer/Footer'
 import Aos from 'aos'
 import 'aos/dist/aos.css'; // Importa los estilos de AOS
 import './style.css'
+import './responsive.css'
 
 Aos.init({
   duration: 1200, // Puedes personalizar el tiempo de duración de las animaciones
