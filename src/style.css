@@ -105,6 +105,8 @@
     --wordpress: #21759B;
   }
   .ctn-body{
+    width: 100%;
+    overflow: hidden;
     position: relative;
   }
   .subtitle{
@@ -144,7 +146,6 @@
   }
 
 .contenedor{
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
