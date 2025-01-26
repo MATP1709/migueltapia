@@ -54,7 +54,7 @@ export const Portafolio =()=>{
                                         {/* <div className='btn btnWeb'>
                                             Web
                                         </div> */}
-                                        <a target='_blank' href='https://www.figma.com/design/738P6ZJ3hkgVKhwFZTEkLu/makEupS?node-id=80-407&m=dev&t=6iklnfNQoruUfd8X-1' className='btn btnFigma'>
+                                        <a target='_blank' href='https://www.figma.com/design/738P6ZJ3hkgVKhwFZTEkLu/makEupS?node-id=0-1&p=f' className='btn btnFigma'>
                                             Figma
                                         </a>
                                     </div>
