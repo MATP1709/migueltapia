@@ -47,7 +47,7 @@ export const Educacion = () =>{
                                         <div className='ctn-item-data'>
                                             <div className='item-data'>
                                                 <img src="./assets/svg/birrete.svg" alt="reloj" />
-                                                09/05/2023
+                                                09/05/2024
                                             </div>
                                         </div>
                                     </div>
