@@ -91,7 +91,7 @@ export const Portafolio =()=>{
                             <div className="wave"></div>
                         </div>
 
-                        <div className="item-card-e" data-aos="flip-down">
+                        {/* <div className="item-card-e" data-aos="flip-down">
                             <div className="portImg">
                                 <img src="./assets/img/proyectos/makeups.png" alt="makEupS" />
                             </div>
@@ -106,16 +106,13 @@ export const Portafolio =()=>{
                                         <a target='_blank' href='https://matp1709.github.io/compuserviceperu/' className='btn btnWeb'>
                                             Web
                                         </a>
-                                        {/* <a target='_blank' href='' className='btn btnFigma'>
-                                            Figma
-                                        </a> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="wave"></div>
                             <div className="wave"></div>
                             <div className="wave"></div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
