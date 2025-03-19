@@ -17,6 +17,7 @@
     width: 360px;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 0 5px #ddd;
 }
 .item-exp .ctn-img img{
     width: 100%;

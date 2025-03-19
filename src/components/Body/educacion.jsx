@@ -84,14 +84,37 @@ export const Educacion = () =>{
                         <p className='subsubtitle'>Cursos</p>
                         <div className='cursos'>
 
-                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-html-css.pdf'>
+                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-frontend-developer.pdf'>
                                 <div className='card-e'>
                                     <div className='item-img'>
                                         <img src="./assets/img/estudios/platzi.png" alt="platzi" />
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
+                                            <p className='item-subtitle'>FrontEnd Developer</p>
+                                        </div>
+                                        
+                                        <div className='ctn-item-data'>
+                                            <div className='item-data'>
+                                                <img src="./assets/svg/reloj.svg" alt="reloj" />
+                                                15 Horas
+                                            </div>
+                                            <div className='item-data'>
+                                                <img src="./assets/svg/calendario.svg" alt="calendario" />
+                                                04-2024
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {/* <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-html-css.pdf'>
+                                <div className='card-e'>
+                                    <div className='item-img'>
+                                        <img src="./assets/img/estudios/platzi.png" alt="platzi" />
+                                    </div>
+                                    <div className='ctn-item-txt'>
+                                        <div className='item-txt'>
                                             <p className='item-subtitle'>HTML y CSS</p>
                                         </div>
                                         
@@ -107,7 +130,7 @@ export const Educacion = () =>{
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </a> */}
 
                             <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-transformaciones-transiciones-css.pdf'>
                                 <div className='card-e'>
@@ -116,7 +139,6 @@ export const Educacion = () =>{
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Transformaciones y transiciones en CSS</p>
                                         </div>
                                         
@@ -141,7 +163,6 @@ export const Educacion = () =>{
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Responsive Design</p>
                                         </div>
                                         
@@ -159,14 +180,13 @@ export const Educacion = () =>{
                                 </div>
                             </a>
 
-                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-sass.pdf'>
+                            {/* <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-sass.pdf'>
                                 <div className='card-e'>
                                     <div className='item-img'>
                                         <img src="./assets/img/estudios/platzi.png" alt="platzi" />
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Fundamentos SASS</p>
                                         </div>
                                         
@@ -182,41 +202,15 @@ export const Educacion = () =>{
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </a> */}
 
-                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/platzi-diploma-frontend-developer.pdf'>
-                                <div className='card-e'>
-                                    <div className='item-img'>
-                                        <img src="./assets/img/estudios/platzi.png" alt="platzi" />
-                                    </div>
-                                    <div className='ctn-item-txt'>
-                                        <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
-                                            <p className='item-subtitle'>FrontEnd Developer</p>
-                                        </div>
-                                        
-                                        <div className='ctn-item-data'>
-                                            <div className='item-data'>
-                                                <img src="./assets/svg/reloj.svg" alt="reloj" />
-                                                15 Horas
-                                            </div>
-                                            <div className='item-data'>
-                                                <img src="./assets/svg/calendario.svg" alt="calendario" />
-                                                04-2024
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/JavaScript.pdf'>
+                            {/* <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/JavaScript.pdf'>
                                 <div className='card-e'>
                                     <div className='item-img'>
                                         <img src="./assets/img/estudios/ftm.png" alt="movistar" />
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Programación con JavaScript</p>
                                         </div>
                                         
@@ -241,7 +235,6 @@ export const Educacion = () =>{
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>WordPress</p>
                                         </div>
                                         
@@ -266,7 +259,6 @@ export const Educacion = () =>{
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Diseño Web con HTML5 + CSS</p>
                                         </div>
                                         
@@ -282,16 +274,15 @@ export const Educacion = () =>{
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </a> */}
 
-                            <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/OFFICE-INTERMEDIO.pdf'>
+                            {/* <a className='item-card-e' data-aos="fade-up" data-aos-anchor-placement="top-bottom" target='_blank' href='./assets/doc/estudios/OFFICE-INTERMEDIO.pdf'>
                                 <div className='card-e'>
                                     <div className='item-img'>
                                         <img src="./assets/img/estudios/ftm.png" alt="movistar" />
                                     </div>
                                     <div className='ctn-item-txt'>
                                         <div className='item-txt'>
-                                            {/* <p className='item-title'>Platzi</p> */}
                                             <p className='item-subtitle'>Office Intermedio</p>
                                         </div>
                                         
@@ -307,7 +298,7 @@ export const Educacion = () =>{
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </a> */}
 
                         </div>
                     </div>

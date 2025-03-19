@@ -27,7 +27,7 @@ export const Header = ()=>{
         return () => clearTimeout(timeout);
     }, [charIndex, isDeleting, textIndex]);
     return(
-<>
+        <>
             <div className='ctn-header-banner' id='inicio'>
                 <header>
                     <div className="ctn-header">
